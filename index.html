@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <div class="container">
+   
+
+
+    <!-- //registration form -->
+
+    <form class="Registration__form" id="form">
+
+      <h1>Registration Form</h1>
+
+      <label>Name:</label>
+      <input type="text" id="name" placeholder="Enter your Name">
+      <small id="nameError" class="error"></small>
+
+      <label>Email:</label>
+      <input type="email" id="email" placeholder="Enter your Email">
+      <small id="emailError" class="error">Please enter a valid Gmail address.</small>
+
+      <label>Password:</label>
+      <input type="password" id="password" placeholder="Enter your Password">
+      <small id="passwordError" class="error">Password must be at least 10 characters.</small>
+
+      <button type="submit" id="button" disabled>Register</button>
+
+    </form>
+
+    <script src="script.js"></script>
+
+  </div>
+
+
+
+</body>
+
+</html>
